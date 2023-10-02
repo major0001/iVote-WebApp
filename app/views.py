@@ -8,7 +8,7 @@ from app import app
 
 # The node with which our application interacts, there can be multiple
 # such nodes as well.
-CONNECTED_SERVICE_ADDRESS = "http://127.0.0.1:8000"
+CONNECTED_SERVICE_ADDRESS = "https://ivote-webapp.azurewebsites.net"
 POLITICAL_PARTIES = ["Labour Party", "Conservative Party"]
 VOTER_IDS=[
         'VOID001','VOID002','VOID003',
